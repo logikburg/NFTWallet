@@ -1,13 +1,19 @@
-# @solana/example-react-app
+# Wallet App
 
-This is an example of how to use `@solana/web3.js` and `@solana/react` to build a React web application.
+This is how to use `@solana/web3.js` and `@solana/react` to build a React web application.
 
 ## Features
 
 - Connects to browser wallets that support the Wallet Standard; one or more at a time
 - Fetches and subscribes to the balance of the selected wallet
-- Allows you to sign an arbitrary message using a wallet account
+- Connect to backend apis to get List of NFTs
 - Allows you to make a transfer from the selected wallet to any other connected wallet
+
+## Sample Data to Render NFT in the Web App
+```shell
+
+[ { "id": 1, "publicKey": "8pgtyLWYWc4Kmzy7NyoTPAmBQp4VMrQ45TgwUh9ddJhq", "name": "Pup Test NFT", "symbol": "", "uri": "https://arweave.net/8pgtyLWYWc4Kmzy7NyoTPAmBQp4VMrQ45TgwUh9ddJhq", "selected": false, "description": "Pup Test NFT", "image": ".../nftdata/main/dog1.jpg" } ]
+```
 
 ## Developing
 
