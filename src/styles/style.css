@@ -1,0 +1,11 @@
+.condition-white::before {
+    content: '';
+    display: block;
+    background: white;
+}
+
+.condition-orange::before {
+    content: '';
+    display: block;
+    background: orange;
+}
